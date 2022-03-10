@@ -1,5 +1,4 @@
 import random
-import numpy as np
 
 def sign(data):
     if data >= 0:
