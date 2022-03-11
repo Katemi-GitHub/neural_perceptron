@@ -22,7 +22,7 @@ class Cell:
             self.y = 0
     
     def mutation(self):
-        self.brain.mutation(self.brain.genome)
+        self.genome = self.brain.mutation(self.brain.genome)
     
     def neuron(self, pop, bdx, bdy):
         for i, e in enumerate(self.g_inf):
